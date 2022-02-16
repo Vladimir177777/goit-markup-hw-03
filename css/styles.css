@@ -1,0 +1,210 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+}
+
+body {
+  font-family: var(--primary-font-family);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.address {
+  font-style: normal;
+}
+
+/* ========== Header start =========== */
+
+.logo-style {
+  color: var(--accent-color);
+}
+.logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+}
+
+.contact-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+/* ========== Header and =========== */
+
+/* ========== Hero ctart ========== */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.modal-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  cursor: pointer;
+  color: #ffffff;
+
+  background-color: var(--accent-color);
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  background-color: #188ce8;
+}
+
+/* ========== Hero end ========== */
+
+/* =========== Features start ==========*/
+.title-features {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+}
+
+.text-features {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--secondary-text-color);
+}
+
+/* =========== Features end ==========*/
+
+/* ========== Activiti start ========== */
+
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--primary-text-color);
+}
+
+/* ========== Activiti end ========== */
+
+/* ========== Team start========== */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.name-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+
+.position-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
+}
+
+/* ========== Team end ========== */
+
+/* ========== Page-footer start ========== */
+
+.page-footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.maps-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.contact-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ========== Page-footer end ========== */
+
+/* ========== Nav portfolio start=========== */
+
+.nav-portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+
+.nav-portfolio-button:hover,
+.nav-portfolio-button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* ========== Nav portfolio end =========== */
+
+/* ========== Portfolio start ========== */
+
+.sample-list {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--primary-text-color);
+}
+
+.info-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--secondary-text-color);
+}
